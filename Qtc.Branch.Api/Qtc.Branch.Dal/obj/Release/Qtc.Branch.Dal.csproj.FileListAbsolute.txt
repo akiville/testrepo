@@ -1,0 +1,18 @@
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Dal.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Dal.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.BusinessEntities.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Validation.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.BusinessEntities.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Validation.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\obj\Release\Qtc.Branch.Dal.csprojResolveAssemblyReference.cache
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\obj\Release\Qtc.Branch.Dal.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\obj\Release\Qtc.Branch.Dal.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Dal.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Dal.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.BusinessEntities.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Validation.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.BusinessEntities.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\bin\Release\Qtc.Branch.Validation.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\obj\Release\Qtc.Branch.Dal.csprojResolveAssemblyReference.cache
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\obj\Release\Qtc.Branch.Dal.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Dal\obj\Release\Qtc.Branch.Dal.pdb

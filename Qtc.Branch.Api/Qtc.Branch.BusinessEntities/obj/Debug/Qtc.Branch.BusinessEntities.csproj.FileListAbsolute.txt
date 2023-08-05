@@ -1,0 +1,18 @@
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.BusinessEntities.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.BusinessEntities.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.Validation.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.Validation.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.csprojResolveAssemblyReference.cache
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.Localizations.General.resources
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.csproj.GenerateResource.Cache
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.BusinessEntities.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.BusinessEntities.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.Validation.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\bin\Debug\Qtc.Branch.Validation.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.Localizations.General.resources
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.csproj.GenerateResource.Cache
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.BusinessEntities\obj\Debug\Qtc.Branch.BusinessEntities.pdb

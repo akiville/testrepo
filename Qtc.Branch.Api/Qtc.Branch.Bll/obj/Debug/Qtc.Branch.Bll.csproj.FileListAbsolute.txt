@@ -1,0 +1,26 @@
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Bll.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Bll.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Audit.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.BusinessEntities.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Dal.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Validation.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Audit.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.BusinessEntities.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Dal.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Validation.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\obj\Debug\Qtc.Branch.Bll.csprojResolveAssemblyReference.cache
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\obj\Debug\Qtc.Branch.Bll.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\obj\Debug\Qtc.Branch.Bll.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Bll.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Bll.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Audit.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.BusinessEntities.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Dal.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Validation.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Audit.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.BusinessEntities.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Dal.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\bin\Debug\Qtc.Branch.Validation.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\obj\Debug\Qtc.Branch.Bll.csprojResolveAssemblyReference.cache
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\obj\Debug\Qtc.Branch.Bll.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Bll\obj\Debug\Qtc.Branch.Bll.pdb

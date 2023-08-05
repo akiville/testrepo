@@ -1,0 +1,216 @@
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\ApplicationInsights.config
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\csc.exe
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\System.Collections.Immutable.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\System.Reflection.Metadata.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\vbc.exe
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\VBCSCompiler.exe
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\VBCSCompiler.exe.config
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Api.dll.config
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Api.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Api.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Antlr3.Runtime.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.SqlServer.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.Agent.Intercept.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.DependencyCollector.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.Web.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.WindowsServer.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.ApplicationInsights.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Core.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Logging.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Tokens.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Cookies.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Facebook.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Google.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.OAuth.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Twitter.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Web.Infrastructure.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Newtonsoft.Json.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Owin.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Bll.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.BusinessEntities.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Validation.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Net.Http.Formatting.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Helpers.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.Owin.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.WebHost.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Mvc.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Optimization.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Razor.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Deployment.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Razor.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\WebGrease.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Dal.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Audit.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Bll.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.BusinessEntities.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Validation.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.DependencyCollector.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.Web.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.WindowsServer.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.ApplicationInsights.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Logging.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Tokens.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Newtonsoft.Json.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Net.Http.Formatting.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Helpers.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.WebHost.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Mvc.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Optimization.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Razor.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Deployment.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Razor.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Antlr3.Runtime.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.SqlServer.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Core.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Facebook.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Cookies.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.OAuth.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Google.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Twitter.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.Owin.xml
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Dal.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Audit.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\obj\Release\Qtc.Branch.Api.csprojResolveAssemblyReference.cache
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\obj\Release\Qtc.Branch.Api.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\obj\Release\Qtc.Branch.Api.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\ApplicationInsights.config
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\csc.exe
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\vbc.exe
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\VBCSCompiler.exe
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Api.dll.config
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Api.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Api.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Antlr3.Runtime.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.SqlServer.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.Web.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.ApplicationInsights.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Newtonsoft.Json.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Owin.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Bll.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.BusinessEntities.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Validation.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Net.Http.Formatting.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Helpers.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.Owin.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.WebHost.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Mvc.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Optimization.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Razor.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Razor.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\WebGrease.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Dal.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Audit.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Bll.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.BusinessEntities.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Validation.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.Web.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.ApplicationInsights.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Newtonsoft.Json.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Net.Http.Formatting.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Helpers.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.WebHost.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Mvc.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Optimization.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Razor.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.WebPages.Razor.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Antlr3.Runtime.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\EntityFramework.SqlServer.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\System.Web.Http.Owin.xml
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Dal.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\bin\Qtc.Branch.Audit.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\obj\Release\Qtc.Branch.Api.csprojResolveAssemblyReference.cache
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\obj\Release\Qtc.Branch.Api.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Api\obj\Release\Qtc.Branch.Api.pdb

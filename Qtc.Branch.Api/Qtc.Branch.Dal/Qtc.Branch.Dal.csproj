@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B59982A6-DDC5-4462-A287-49F9E056FE63}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Qtc.Branch.Dal</RootNamespace>
+    <AssemblyName>Qtc.Branch.Dal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBackDB.cs" />
+    <Compile Include="AnnouncementDB.cs" />
+    <Compile Include="AnnouncementReplyDB.cs" />
+    <Compile Include="ApiActionDB.cs" />
+    <Compile Include="ApiVersionChangelogDB.cs" />
+    <Compile Include="ApiVersionDB.cs" />
+    <Compile Include="AppConfiguration.cs" />
+    <Compile Include="AuditDB.cs" />
+    <Compile Include="AuditMessageDB.cs" />
+    <Compile Include="AuditMessageDetailDB.cs" />
+    <Compile Include="AuditMessageImageDB.cs" />
+    <Compile Include="AuditorLoginDB.cs" />
+    <Compile Include="BranchCashDB.cs" />
+    <Compile Include="BranchCashDetailsDB.cs" />
+    <Compile Include="BranchOdsCompanyDB.cs" />
+    <Compile Include="BranchProductDB.cs" />
+    <Compile Include="BranchRequisitionDB.cs" />
+    <Compile Include="BranchRequisitionDetailsDB.cs" />
+    <Compile Include="BranchsDB.cs" />
+    <Compile Include="CashDenominationDB.cs" />
+    <Compile Include="CategoryDB.cs" />
+    <Compile Include="ContactDB.cs" />
+    <Compile Include="DailySalesSummaryDB.cs" />
+    <Compile Include="DeliveryDB.cs" />
+    <Compile Include="DeliveryDetailsDB.cs" />
+    <Compile Include="DeliveryScheduleConcernDB.cs" />
+    <Compile Include="DeliveryScheduleConcernDetailDB.cs" />
+    <Compile Include="DeliveryScheduleDB.cs" />
+    <Compile Include="DeliveryScheduleDetailDB.cs" />
+    <Compile Include="DeviceConfigurationDB.cs" />
+    <Compile Include="DeviceDB.cs" />
+    <Compile Include="DeviceLoginDB.cs" />
+    <Compile Include="DisseminatedLetterDB.cs" />
+    <Compile Include="DisseminatedLetterExtensionRequestDB.cs" />
+    <Compile Include="DisseminatedLetterSmsReplyDB.cs" />
+    <Compile Include="DtrLogsOvertimeDB.cs" />
+    <Compile Include="DtrLogsOvertimeReasonDB.cs" />
+    <Compile Include="EmployeeAttendanceDB.cs" />
+    <Compile Include="EmployeeDB.cs" />
+    <Compile Include="EmployeeHrLetterDB.cs" />
+    <Compile Include="EmployeeStatusEmploymentDB.cs" />
+    <Compile Include="GreenslipDB.cs" />
+    <Compile Include="GreenSlipDetailDB.cs" />
+    <Compile Include="GreenSlipRequestDB.cs" />
+    <Compile Include="GreenSlipRequestDetailDB.cs" />
+    <Compile Include="Helpers.cs" />
+    <Compile Include="HrLetterActualEndDB.cs" />
+    <Compile Include="HrLetterHistoryMovementDB.cs" />
+    <Compile Include="HrLetterRequestDB.cs" />
+    <Compile Include="IbwDB.cs" />
+    <Compile Include="IbwDetailDB.cs" />
+    <Compile Include="LmmAttendanceDB.cs" />
+    <Compile Include="LmmAttendanceScheduleTypeDB.cs" />
+    <Compile Include="LmmAttendanceUpdateDB.cs" />
+    <Compile Include="LmmCashCountDB.cs" />
+    <Compile Include="LmmDB.cs" />
+    <Compile Include="LmmEntryDB.cs" />
+    <Compile Include="LoeDB.cs" />
+    <Compile Include="LoeDetailDB.cs" />
+    <Compile Include="LogsDB.cs" />
+    <Compile Include="MessageDB.cs" />
+    <Compile Include="MessengerDB.cs" />
+    <Compile Include="MessengerDetailDB.cs" />
+    <Compile Include="MessengerGpsDB.cs" />
+    <Compile Include="MessengerParticipantDB.cs" />
+    <Compile Include="MessengerStatusDB.cs" />
+    <Compile Include="NonComplianceDB.cs" />
+    <Compile Include="NonComplianceTopicDB.cs" />
+    <Compile Include="NotifyLmmForTransferedSalesEmployeeDB.cs" />
+    <Compile Include="NovExplanationDB.cs" />
+    <Compile Include="OdsCompanyDB.cs" />
+    <Compile Include="OperationReportDB.cs" />
+    <Compile Include="ProductAvailDB.cs" />
+    <Compile Include="ProductDB.cs" />
+    <Compile Include="ProductGroupDB.cs" />
+    <Compile Include="ProductSerialDB.cs" />
+    <Compile Include="ProductTypeDB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurposeDB.cs" />
+    <Compile Include="ReasonDB.cs" />
+    <Compile Include="RepairDetailDB.cs" />
+    <Compile Include="RepairImageDB.cs" />
+    <Compile Include="RequestForIssuanceDB.cs" />
+    <Compile Include="RequestForIssuanceDetailDB.cs" />
+    <Compile Include="RequestForScheduleChangeDB.cs" />
+    <Compile Include="RequestMessageDB.cs" />
+    <Compile Include="RequestRepairDB.cs" />
+    <Compile Include="RequestTopicDB.cs" />
+    <Compile Include="RfscDB.cs" />
+    <Compile Include="RfscMessageDB.cs" />
+    <Compile Include="RovingAgentDeviceProfileDB.cs" />
+    <Compile Include="RovingAgentLoginDB.cs" />
+    <Compile Include="RovingCheckListDB.cs" />
+    <Compile Include="RovingCheckListViolationDB.cs" />
+    <Compile Include="RovingCheckListViolationDetailDB.cs" />
+    <Compile Include="RovingCheckListViolationPersonnelDB.cs" />
+    <Compile Include="RovingPlanDB.cs" />
+    <Compile Include="RovingPlanOicDB.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistDB.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistImageDB.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistLSVDB.cs" />
+    <Compile Include="RovingPlanScheduledActualDB.cs" />
+    <Compile Include="RovingPlanScheduledDB.cs" />
+    <Compile Include="RovingScheduleDB.cs" />
+    <Compile Include="RovingTasksDB.cs" />
+    <Compile Include="SalesScheduleDB.cs" />
+    <Compile Include="SalesSchedulingColorPlannedDB.cs" />
+    <Compile Include="SalesSchedulingConcernDB.cs" />
+    <Compile Include="SalesSchedulingConfirmationDB.cs" />
+    <Compile Include="SalesSchedulingCutoffDB.cs" />
+    <Compile Include="SalesSchedulingReasonCodeDB.cs" />
+    <Compile Include="SalesSchedulingUpdatesDB.cs" />
+    <Compile Include="ShiftDB.cs" />
+    <Compile Include="TraineeAttendanceDB.cs" />
+    <Compile Include="TraineeDB.cs" />
+    <Compile Include="TrainingAttendance2DB.cs" />
+    <Compile Include="TrainingAttendanceDB.cs" />
+    <Compile Include="TrainingAttendanceDetailsDB.cs" />
+    <Compile Include="TrainingAttendanceStatusDB.cs" />
+    <Compile Include="TypeOfLetterDB.cs" />
+    <Compile Include="TypeOfReconcilingFormDB.cs" />
+    <Compile Include="TypeOfViolationDB.cs" />
+    <Compile Include="UrgentScheduleChangeBranchDB.cs" />
+    <Compile Include="UrgentScheduleChangeDB.cs" />
+    <Compile Include="UrgentScheduleChangeMessageDB.cs" />
+    <Compile Include="UserDB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Qtc.Branch.BusinessEntities\Qtc.Branch.BusinessEntities.csproj">
+      <Project>{8f2961bd-dd9a-46de-b79d-3d620db0e6f0}</Project>
+      <Name>Qtc.Branch.BusinessEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Qtc.Branch.Validation\Qtc.Branch.Validation.csproj">
+      <Project>{b9bdddbd-415d-4f1a-ad54-8c17f69fc54b}</Project>
+      <Name>Qtc.Branch.Validation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

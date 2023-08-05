@@ -1,0 +1,9 @@
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\bin\Debug\Qtc.Branch.Validation.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\bin\Debug\Qtc.Branch.Validation.pdb
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\obj\Debug\Qtc.Branch.Validation.dll
+F:\My Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\obj\Debug\Qtc.Branch.Validation.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\bin\Debug\Qtc.Branch.Validation.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\bin\Debug\Qtc.Branch.Validation.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\obj\Debug\Qtc.Branch.Validation.dll
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\obj\Debug\Qtc.Branch.Validation.pdb
+C:\Users\aki\Documents\Visual Studio 2015\Projects\Qtc.Branch.Api\Qtc.Branch.Validation\obj\Debug\Qtc.Branch.Validation.csprojResolveAssemblyReference.cache

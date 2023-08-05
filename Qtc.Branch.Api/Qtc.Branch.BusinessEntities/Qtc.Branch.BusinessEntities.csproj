@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8F2961BD-DD9A-46DE-B79D-3D620DB0E6F0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Qtc.Branch.BusinessEntities</RootNamespace>
+    <AssemblyName>Qtc.Branch.BusinessEntities</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBack.cs" />
+    <Compile Include="Announcement.cs" />
+    <Compile Include="AnnouncementReply.cs" />
+    <Compile Include="ApiAction.cs" />
+    <Compile Include="ApiVersion.cs" />
+    <Compile Include="ApiVersionChangelog.cs" />
+    <Compile Include="Audit.cs" />
+    <Compile Include="AuditMessage.cs" />
+    <Compile Include="AuditMessageDetail.cs" />
+    <Compile Include="AuditMessageImage.cs" />
+    <Compile Include="AuditorLogin.cs" />
+    <Compile Include="BranchCash.cs" />
+    <Compile Include="BranchCashDetails.cs" />
+    <Compile Include="BranchOdsCompany.cs" />
+    <Compile Include="BranchProduct.cs" />
+    <Compile Include="BranchRequisition.cs" />
+    <Compile Include="BranchRequisitionDetails.cs" />
+    <Compile Include="Branchs.cs" />
+    <Compile Include="BusinessBase.cs" />
+    <Compile Include="CashDenomination.cs" />
+    <Compile Include="Category.cs" />
+    <Compile Include="Collection\AddBackCollection.cs" />
+    <Compile Include="Collection\AnnouncementCollection.cs" />
+    <Compile Include="Collection\AnnouncementReplyCollection.cs" />
+    <Compile Include="Collection\ApiActionCollection.cs" />
+    <Compile Include="Collection\ApiVersionChangelogCollection.cs" />
+    <Compile Include="Collection\ApiVersionCollection.cs" />
+    <Compile Include="Collection\AuditCollection.cs" />
+    <Compile Include="Collection\AuditMessageCollection.cs" />
+    <Compile Include="Collection\AuditMessageDetailCollection.cs" />
+    <Compile Include="Collection\AuditMessageImageCollection.cs" />
+    <Compile Include="Collection\AuditorLoginCollection.cs" />
+    <Compile Include="Collection\BranchCashCollection.cs" />
+    <Compile Include="Collection\BranchCashDetailsCollection.cs" />
+    <Compile Include="Collection\BranchOdsCompanyCollection.cs" />
+    <Compile Include="Collection\BranchProductCollection.cs" />
+    <Compile Include="Collection\BranchRequisitionCollection.cs" />
+    <Compile Include="Collection\BranchRequisitionDetailsCollection.cs" />
+    <Compile Include="Collection\BranchsCollection.cs" />
+    <Compile Include="Collection\BusinessCollectionBase.cs" />
+    <Compile Include="Collection\CashDenominationCollection.cs" />
+    <Compile Include="Collection\CategoryCollection.cs" />
+    <Compile Include="Collection\ContactCollection.cs" />
+    <Compile Include="Collection\DailySalesSummaryCollection.cs" />
+    <Compile Include="Collection\DeliveryCollection.cs" />
+    <Compile Include="Collection\DeliveryDetailsCollection.cs" />
+    <Compile Include="Collection\DeliveryScheduleCollection.cs" />
+    <Compile Include="Collection\DeliveryScheduleConcernCollection.cs" />
+    <Compile Include="Collection\DeliveryScheduleConcernDetailCollection.cs" />
+    <Compile Include="Collection\DeliveryScheduleDetailCollection.cs" />
+    <Compile Include="Collection\DeviceCollection.cs" />
+    <Compile Include="Collection\DeviceConfigurationCollection.cs" />
+    <Compile Include="Collection\DeviceLoginCollection.cs" />
+    <Compile Include="Collection\DisseminatedLetterCollection.cs" />
+    <Compile Include="Collection\DisseminatedLetterExtensionRequestCollection.cs" />
+    <Compile Include="Collection\DisseminatedLetterSmsReplyCollection.cs" />
+    <Compile Include="Collection\DtrLogsOvertimeCollection.cs" />
+    <Compile Include="Collection\DtrLogsOvertimeReasonCollection.cs" />
+    <Compile Include="Collection\EmployeeAttendanceCollection.cs" />
+    <Compile Include="Collection\EmployeeCollection.cs" />
+    <Compile Include="Collection\EmployeeHrLetterCollection.cs" />
+    <Compile Include="Collection\EmployeeStatusEmploymentCollection.cs" />
+    <Compile Include="Collection\GreenslipCollection.cs" />
+    <Compile Include="Collection\GreenSlipDetailCollection.cs" />
+    <Compile Include="Collection\GreenSlipRequestCollection.cs" />
+    <Compile Include="Collection\GreenSlipRequestDetailCollection.cs" />
+    <Compile Include="Collection\HrLetterActualEndCollection.cs" />
+    <Compile Include="Collection\HrLetterHistoryMovementCollection.cs" />
+    <Compile Include="Collection\HrLetterRequestCollection.cs" />
+    <Compile Include="Collection\IbwCollection.cs" />
+    <Compile Include="Collection\IbwDetailCollection.cs" />
+    <Compile Include="Collection\LmmAttendanceCollection.cs" />
+    <Compile Include="Collection\LmmAttendanceScheduleTypeCollection.cs" />
+    <Compile Include="Collection\LmmAttendanceUpdateCollection.cs" />
+    <Compile Include="Collection\LmmCashCountCollection.cs" />
+    <Compile Include="Collection\LmmCollection.cs" />
+    <Compile Include="Collection\LmmEntryCollection.cs" />
+    <Compile Include="Collection\LoeCollection.cs" />
+    <Compile Include="Collection\LoeDetailCollection.cs" />
+    <Compile Include="Collection\LogsCollection.cs" />
+    <Compile Include="Collection\MessageCollection.cs" />
+    <Compile Include="Collection\MessengerCollection.cs" />
+    <Compile Include="Collection\MessengerDetailCollection.cs" />
+    <Compile Include="Collection\MessengerGpsCollection.cs" />
+    <Compile Include="Collection\MessengerParticipantCollection.cs" />
+    <Compile Include="Collection\MessengerStatusCollection.cs" />
+    <Compile Include="Collection\NonComplianceCollection.cs" />
+    <Compile Include="Collection\NonComplianceTopicCollection.cs" />
+    <Compile Include="Collection\NotifyLmmForTransferedSalesEmployeeCollection.cs" />
+    <Compile Include="Collection\NovExplanationCollection.cs" />
+    <Compile Include="Collection\OdsCompanyCollection.cs" />
+    <Compile Include="Collection\OperationReportCollection.cs" />
+    <Compile Include="Collection\ProductAvailCollection.cs" />
+    <Compile Include="Collection\ProductCollection.cs" />
+    <Compile Include="Collection\ProductGroupCollection.cs" />
+    <Compile Include="Collection\ProductSerialCollection.cs" />
+    <Compile Include="Collection\ProductTypeCollection.cs" />
+    <Compile Include="Collection\PurposeCollection.cs" />
+    <Compile Include="Collection\ReasonCollection.cs" />
+    <Compile Include="Collection\RepairDetailCollection.cs" />
+    <Compile Include="Collection\RepairImageCollection.cs" />
+    <Compile Include="Collection\RequestForIssuanceCollection.cs" />
+    <Compile Include="Collection\RequestForIssuanceDetailCollection.cs" />
+    <Compile Include="Collection\RequestForScheduleChangeCollection.cs" />
+    <Compile Include="Collection\RequestMessageCollection.cs" />
+    <Compile Include="Collection\RequestRepairCollection.cs" />
+    <Compile Include="Collection\RequestTopicCollection.cs" />
+    <Compile Include="Collection\RfscCollection.cs" />
+    <Compile Include="Collection\RfscMessageCollection.cs" />
+    <Compile Include="Collection\RovingAgentDeviceProfileCollection.cs" />
+    <Compile Include="Collection\RovingAgentLoginCollection.cs" />
+    <Compile Include="Collection\RovingCheckListCollection.cs" />
+    <Compile Include="Collection\RovingCheckListViolationCollection.cs" />
+    <Compile Include="Collection\RovingCheckListViolationDetailCollection.cs" />
+    <Compile Include="Collection\RovingCheckListViolationPersonnelCollection.cs" />
+    <Compile Include="Collection\RovingPlanCollection.cs" />
+    <Compile Include="Collection\RovingPlanOicCollection.cs" />
+    <Compile Include="Collection\RovingPlanScheduledActualChecklistCollection.cs" />
+    <Compile Include="Collection\RovingPlanScheduledActualChecklistImageCollection.cs" />
+    <Compile Include="Collection\RovingPlanScheduledActualChecklistLSVCollection.cs" />
+    <Compile Include="Collection\RovingPlanScheduledActualCollection.cs" />
+    <Compile Include="Collection\RovingPlanScheduledCollection.cs" />
+    <Compile Include="Collection\RovingScheduleCollection.cs" />
+    <Compile Include="Collection\RovingTasksCollection.cs" />
+    <Compile Include="Collection\SalesScheduleCollection.cs" />
+    <Compile Include="Collection\SalesSchedulingColorPlannedCollection.cs" />
+    <Compile Include="Collection\SalesSchedulingConcernCollection.cs" />
+    <Compile Include="Collection\SalesSchedulingConfirmationCollection.cs" />
+    <Compile Include="Collection\SalesSchedulingCutoffCollection.cs" />
+    <Compile Include="Collection\SalesSchedulingReasonCodeCollection.cs" />
+    <Compile Include="Collection\SalesSchedulingUpdatesCollection.cs" />
+    <Compile Include="Collection\ShiftCollection.cs" />
+    <Compile Include="Collection\TraineeAttendanceCollection.cs" />
+    <Compile Include="Collection\TraineeCollection.cs" />
+    <Compile Include="Collection\TrainingAttendance2Collection.cs" />
+    <Compile Include="Collection\TrainingAttendanceCollection.cs" />
+    <Compile Include="Collection\TrainingAttendanceDetailsCollection.cs" />
+    <Compile Include="Collection\TrainingAttendanceStatusCollection.cs" />
+    <Compile Include="Collection\TypeOfLetterCollection.cs" />
+    <Compile Include="Collection\TypeOfReconcilingFormCollection.cs" />
+    <Compile Include="Collection\TypeOfViolationCollection.cs" />
+    <Compile Include="Collection\UrgentScheduleChangeBranchCollection.cs" />
+    <Compile Include="Collection\UrgentScheduleChangeCollection.cs" />
+    <Compile Include="Collection\UrgentScheduleChangeMessageCollection.cs" />
+    <Compile Include="Collection\UserCollection.cs" />
+    <Compile Include="Contact.cs" />
+    <Compile Include="DailySalesSummary.cs" />
+    <Compile Include="Delivery.cs" />
+    <Compile Include="DeliveryDetails.cs" />
+    <Compile Include="DeliverySchedule.cs" />
+    <Compile Include="DeliveryScheduleConcern.cs" />
+    <Compile Include="DeliveryScheduleConcernDetail.cs" />
+    <Compile Include="DeliveryScheduleDetail.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="DeviceConfiguration.cs" />
+    <Compile Include="DeviceLogin.cs" />
+    <Compile Include="DisseminatedLetter.cs" />
+    <Compile Include="DisseminatedLetterExtensionRequest.cs" />
+    <Compile Include="DisseminatedLetterSmsReply.cs" />
+    <Compile Include="DtrLogsOvertime.cs" />
+    <Compile Include="DtrLogsOvertimeReason.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="EmployeeAttendance.cs" />
+    <Compile Include="EmployeeHrLetter.cs" />
+    <Compile Include="EmployeeStatusEmployment.cs" />
+    <Compile Include="Enums\AuditAction.cs" />
+    <Compile Include="Enums\Modules.cs" />
+    <Compile Include="Enums\Tables.cs" />
+    <Compile Include="Greenslip.cs" />
+    <Compile Include="GreenSlipDetail.cs" />
+    <Compile Include="GreenSlipRequest.cs" />
+    <Compile Include="GreenSlipRequestDetail.cs" />
+    <Compile Include="HrLetterActualEnd.cs" />
+    <Compile Include="HrLetterHistoryMovement.cs" />
+    <Compile Include="HrLetterRequest.cs" />
+    <Compile Include="Ibw.cs" />
+    <Compile Include="IbwDetail.cs" />
+    <Compile Include="Lmm.cs" />
+    <Compile Include="LmmAttendance.cs" />
+    <Compile Include="LmmAttendanceScheduleType.cs" />
+    <Compile Include="LmmAttendanceUpdate.cs" />
+    <Compile Include="LmmCashCount.cs" />
+    <Compile Include="LmmEntry.cs" />
+    <Compile Include="Localizations\General.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>General.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Loe.cs" />
+    <Compile Include="LoeDetail.cs" />
+    <Compile Include="Logs.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Messenger.cs" />
+    <Compile Include="MessengerDetail.cs" />
+    <Compile Include="MessengerGps.cs" />
+    <Compile Include="MessengerParticipant.cs" />
+    <Compile Include="MessengerStatus.cs" />
+    <Compile Include="NonCompliance.cs" />
+    <Compile Include="NonComplianceTopic.cs" />
+    <Compile Include="NotifyLmmForTransferedSalesEmployee.cs" />
+    <Compile Include="NovExplanation.cs" />
+    <Compile Include="OdsCompany.cs" />
+    <Compile Include="OperationReport.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductAvail.cs" />
+    <Compile Include="ProductGroup.cs" />
+    <Compile Include="ProductSerial.cs" />
+    <Compile Include="ProductType.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Purpose.cs" />
+    <Compile Include="Reason.cs" />
+    <Compile Include="RepairDetail.cs" />
+    <Compile Include="RepairImage.cs" />
+    <Compile Include="RequestForIssuance.cs" />
+    <Compile Include="RequestForIssuanceDetail.cs" />
+    <Compile Include="RequestForScheduleChange.cs" />
+    <Compile Include="RequestMessage.cs" />
+    <Compile Include="RequestRepair.cs" />
+    <Compile Include="RequestTopic.cs" />
+    <Compile Include="Rfsc.cs" />
+    <Compile Include="RfscMessage.cs" />
+    <Compile Include="RovingAgentDeviceProfile.cs" />
+    <Compile Include="RovingAgentLogin.cs" />
+    <Compile Include="RovingCheckList.cs" />
+    <Compile Include="RovingCheckListViolation.cs" />
+    <Compile Include="RovingCheckListViolationDetail.cs" />
+    <Compile Include="RovingCheckListViolationPersonnel.cs" />
+    <Compile Include="RovingPlan.cs" />
+    <Compile Include="RovingPlanOic.cs" />
+    <Compile Include="RovingPlanScheduled.cs" />
+    <Compile Include="RovingPlanScheduledActual.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklist.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistImage.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistLSV.cs" />
+    <Compile Include="RovingSchedule.cs" />
+    <Compile Include="RovingTasks.cs" />
+    <Compile Include="SalesSchedule.cs" />
+    <Compile Include="SalesSchedulingColorPlanned.cs" />
+    <Compile Include="SalesSchedulingConcern.cs" />
+    <Compile Include="SalesSchedulingConfirmation.cs" />
+    <Compile Include="SalesSchedulingCutoff.cs" />
+    <Compile Include="SalesSchedulingReasonCode.cs" />
+    <Compile Include="SalesSchedulingUpdates.cs" />
+    <Compile Include="SearchCriteria\AddBackCriteria.cs" />
+    <Compile Include="SearchCriteria\AnnouncementCriteria.cs" />
+    <Compile Include="SearchCriteria\AnnouncementReplyCriteria.cs" />
+    <Compile Include="SearchCriteria\ApiActionCriteria.cs" />
+    <Compile Include="SearchCriteria\ApiVersionChangelogCriteria.cs" />
+    <Compile Include="SearchCriteria\ApiVersionCriteria.cs" />
+    <Compile Include="SearchCriteria\AuditCriteria.cs" />
+    <Compile Include="SearchCriteria\AuditMessageCriteria.cs" />
+    <Compile Include="SearchCriteria\AuditMessageDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\AuditMessageImageCriteria.cs" />
+    <Compile Include="SearchCriteria\AuditorLoginCriteria.cs" />
+    <Compile Include="SearchCriteria\BranchCashCriteria.cs" />
+    <Compile Include="SearchCriteria\BranchCashDetailsCriteria.cs" />
+    <Compile Include="SearchCriteria\BranchOdsCompanyCriteria.cs" />
+    <Compile Include="SearchCriteria\BranchProductCriteria.cs" />
+    <Compile Include="SearchCriteria\BranchRequisitionCriteria.cs" />
+    <Compile Include="SearchCriteria\BranchRequisitionDetailsCriteria.cs" />
+    <Compile Include="SearchCriteria\BranchsCriteria.cs" />
+    <Compile Include="SearchCriteria\CashDenominationCriteria.cs" />
+    <Compile Include="SearchCriteria\CategoryCriteria.cs" />
+    <Compile Include="SearchCriteria\ContactCriteria.cs" />
+    <Compile Include="SearchCriteria\DailySalesSummaryCriteria.cs" />
+    <Compile Include="SearchCriteria\DeliveryCriteria.cs" />
+    <Compile Include="SearchCriteria\DeliveryDetailsCriteria.cs" />
+    <Compile Include="SearchCriteria\DeliveryScheduleConcernCriteria.cs" />
+    <Compile Include="SearchCriteria\DeliveryScheduleConcernDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\DeliveryScheduleCriteria.cs" />
+    <Compile Include="SearchCriteria\DeliveryScheduleDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\DeviceConfigurationCriteria.cs" />
+    <Compile Include="SearchCriteria\DeviceCriteria.cs" />
+    <Compile Include="SearchCriteria\DeviceLoginCriteria.cs" />
+    <Compile Include="SearchCriteria\DisseminatedLetterCriteria.cs" />
+    <Compile Include="SearchCriteria\DisseminatedLetterExtensionRequestCriteria.cs" />
+    <Compile Include="SearchCriteria\DisseminatedLetterSmsReplyCriteria.cs" />
+    <Compile Include="SearchCriteria\DtrLogsOvertimeCriteria.cs" />
+    <Compile Include="SearchCriteria\DtrLogsOvertimeReasonCriteria.cs" />
+    <Compile Include="SearchCriteria\EmployeeAttendanceCriteria.cs" />
+    <Compile Include="SearchCriteria\EmployeeCriteria.cs" />
+    <Compile Include="SearchCriteria\EmployeeHrLetterCriteria.cs" />
+    <Compile Include="SearchCriteria\EmployeeStatusEmploymentCriteria.cs" />
+    <Compile Include="SearchCriteria\GreenslipCriteria.cs" />
+    <Compile Include="SearchCriteria\GreenSlipDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\GreenSlipRequestCriteria.cs" />
+    <Compile Include="SearchCriteria\GreenSlipRequestDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\HrLetterActualEndCriteria.cs" />
+    <Compile Include="SearchCriteria\HrLetterHistoryMovementCriteria.cs" />
+    <Compile Include="SearchCriteria\HrLetterRequestCriteria.cs" />
+    <Compile Include="SearchCriteria\IbwCriteria.cs" />
+    <Compile Include="SearchCriteria\IbwDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\LmmAttendanceCriteria.cs" />
+    <Compile Include="SearchCriteria\LmmAttendanceScheduleTypeCriteria.cs" />
+    <Compile Include="SearchCriteria\LmmAttendanceUpdateCriteria.cs" />
+    <Compile Include="SearchCriteria\LmmCashCountCriteria.cs" />
+    <Compile Include="SearchCriteria\LmmCriteria.cs" />
+    <Compile Include="SearchCriteria\LmmEntryCriteria.cs" />
+    <Compile Include="SearchCriteria\LoeCriteria.cs" />
+    <Compile Include="SearchCriteria\LoeDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\LogsCriteria.cs" />
+    <Compile Include="SearchCriteria\MessageCriteria.cs" />
+    <Compile Include="SearchCriteria\MessengerCriteria.cs" />
+    <Compile Include="SearchCriteria\MessengerDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\MessengerGpsCriteria.cs" />
+    <Compile Include="SearchCriteria\MessengerParticipantCriteria.cs" />
+    <Compile Include="SearchCriteria\MessengerStatusCriteria.cs" />
+    <Compile Include="SearchCriteria\NonComplianceCriteria.cs" />
+    <Compile Include="SearchCriteria\NonComplianceTopicCriteria.cs" />
+    <Compile Include="SearchCriteria\NotifyLmmForTransferedSalesEmployeeCriteria.cs" />
+    <Compile Include="SearchCriteria\NovExplanationCriteria.cs" />
+    <Compile Include="SearchCriteria\OdsCompanyCriteria.cs" />
+    <Compile Include="SearchCriteria\OperationReportCriteria.cs" />
+    <Compile Include="SearchCriteria\ProductAvailCriteria.cs" />
+    <Compile Include="SearchCriteria\ProductCriteria.cs" />
+    <Compile Include="SearchCriteria\ProductGroupCriteria.cs" />
+    <Compile Include="SearchCriteria\ProductSerialCriteria.cs" />
+    <Compile Include="SearchCriteria\ProductTypeCriteria.cs" />
+    <Compile Include="SearchCriteria\PurposeCriteria.cs" />
+    <Compile Include="SearchCriteria\ReasonCriteria.cs" />
+    <Compile Include="SearchCriteria\RepairDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\RepairImageCriteria.cs" />
+    <Compile Include="SearchCriteria\RequestForIssuanceCriteria.cs" />
+    <Compile Include="SearchCriteria\RequestForIssuanceDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\RequestForScheduleChangeCriteria.cs" />
+    <Compile Include="SearchCriteria\RequestMessageCriteria.cs" />
+    <Compile Include="SearchCriteria\RequestRepairCriteria.cs" />
+    <Compile Include="SearchCriteria\RequestTopicCriteria.cs" />
+    <Compile Include="SearchCriteria\RfscCriteria.cs" />
+    <Compile Include="SearchCriteria\RfscMessageCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingAgentDeviceProfileCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingAgentLoginCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingCheckListCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingCheckListViolationCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingCheckListViolationDetailCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingCheckListViolationPersonnelCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingPlanCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingPlanOicCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingPlanScheduledActualChecklistCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingPlanScheduledActualChecklistImageCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingPlanScheduledActualChecklistLSVCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingPlanScheduledActualCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingPlanScheduledCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingScheduleCriteria.cs" />
+    <Compile Include="SearchCriteria\RovingTasksCriteria.cs" />
+    <Compile Include="SearchCriteria\SalesScheduleCriteria.cs" />
+    <Compile Include="SearchCriteria\SalesSchedulingColorPlannedCriteria.cs" />
+    <Compile Include="SearchCriteria\SalesSchedulingConcernCriteria.cs" />
+    <Compile Include="SearchCriteria\SalesSchedulingConfirmationCriteria.cs" />
+    <Compile Include="SearchCriteria\SalesSchedulingCutoffCriteria.cs" />
+    <Compile Include="SearchCriteria\SalesSchedulingReasonCodeCriteria.cs" />
+    <Compile Include="SearchCriteria\SalesSchedulingUpdatesCriteria.cs" />
+    <Compile Include="SearchCriteria\ShiftCriteria.cs" />
+    <Compile Include="SearchCriteria\TraineeAttendanceCriteria.cs" />
+    <Compile Include="SearchCriteria\TraineeCriteria.cs" />
+    <Compile Include="SearchCriteria\TrainingAttendance2Criteria.cs" />
+    <Compile Include="SearchCriteria\TrainingAttendanceCriteria.cs" />
+    <Compile Include="SearchCriteria\TrainingAttendanceDetailsCriteria.cs" />
+    <Compile Include="SearchCriteria\TrainingAttendanceStatusCriteria.cs" />
+    <Compile Include="SearchCriteria\TypeOfLetterCriteria.cs" />
+    <Compile Include="SearchCriteria\TypeOfReconcilingFormCriteria.cs" />
+    <Compile Include="SearchCriteria\TypeOfViolationCriteria.cs" />
+    <Compile Include="SearchCriteria\UrgentScheduleChangeBranchCriteria.cs" />
+    <Compile Include="SearchCriteria\UrgentScheduleChangeCriteria.cs" />
+    <Compile Include="SearchCriteria\UrgentScheduleChangeMessageCriteria.cs" />
+    <Compile Include="SearchCriteria\UserCriteria.cs" />
+    <Compile Include="Shift.cs" />
+    <Compile Include="Trainee.cs" />
+    <Compile Include="TraineeAttendance.cs" />
+    <Compile Include="TrainingAttendance.cs" />
+    <Compile Include="TrainingAttendance2.cs" />
+    <Compile Include="TrainingAttendanceDetails.cs" />
+    <Compile Include="TrainingAttendanceStatus.cs" />
+    <Compile Include="TypeOfLetter.cs" />
+    <Compile Include="TypeOfReconcilingForm.cs" />
+    <Compile Include="TypeOfViolation.cs" />
+    <Compile Include="UrgentScheduleChange.cs" />
+    <Compile Include="UrgentScheduleChangeBranch.cs" />
+    <Compile Include="UrgentScheduleChangeMessage.cs" />
+    <Compile Include="User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Qtc.Branch.Validation\Qtc.Branch.Validation.csproj">
+      <Project>{b9bdddbd-415d-4f1a-ad54-8c17f69fc54b}</Project>
+      <Name>Qtc.Branch.Validation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localizations\General.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>General.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

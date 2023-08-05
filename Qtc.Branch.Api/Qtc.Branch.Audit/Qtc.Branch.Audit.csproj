@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C7A9D4E-2046-46D5-8ABD-A8B1393CFA05}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Qtc.Branch.Audit</RootNamespace>
+    <AssemblyName>Qtc.Branch.Audit</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddBackAudit.cs" />
+    <Compile Include="AnnouncementAudit.cs" />
+    <Compile Include="AnnouncementReplyAudit.cs" />
+    <Compile Include="ApiActionAudit.cs" />
+    <Compile Include="ApiVersionAudit.cs" />
+    <Compile Include="ApiVersionChangelogAudit.cs" />
+    <Compile Include="AuditMessageAudit.cs" />
+    <Compile Include="AuditMessageDetailAudit.cs" />
+    <Compile Include="AuditMessageImageAudit.cs" />
+    <Compile Include="AuditorLoginAudit.cs" />
+    <Compile Include="BranchCashAudit.cs" />
+    <Compile Include="BranchCashDetailsAudit.cs" />
+    <Compile Include="BranchOdsCompanyAudit.cs" />
+    <Compile Include="BranchProductAudit.cs" />
+    <Compile Include="BranchRequisitionAudit.cs" />
+    <Compile Include="BranchRequisitionDetailsAudit.cs" />
+    <Compile Include="BranchsAudit.cs" />
+    <Compile Include="CashDenominationAudit.cs" />
+    <Compile Include="CategoryAudit.cs" />
+    <Compile Include="ContactAudit.cs" />
+    <Compile Include="DailySalesSummaryAudit.cs" />
+    <Compile Include="DeliveryAudit.cs" />
+    <Compile Include="DeliveryDetailsAudit.cs" />
+    <Compile Include="DeliveryScheduleAudit.cs" />
+    <Compile Include="DeliveryScheduleConcernAudit.cs" />
+    <Compile Include="DeliveryScheduleConcernDetailAudit.cs" />
+    <Compile Include="DeliveryScheduleDetailAudit.cs" />
+    <Compile Include="DeviceAudit.cs" />
+    <Compile Include="DeviceConfigurationAudit.cs" />
+    <Compile Include="DeviceLoginAudit.cs" />
+    <Compile Include="DisseminatedLetterAudit.cs" />
+    <Compile Include="DisseminatedLetterExtensionRequestAudit.cs" />
+    <Compile Include="DisseminatedLetterSmsReplyAudit.cs" />
+    <Compile Include="DtrLogsOvertimeAudit.cs" />
+    <Compile Include="DtrLogsOvertimeReasonAudit.cs" />
+    <Compile Include="EmployeeAttendanceAudit.cs" />
+    <Compile Include="EmployeeAudit.cs" />
+    <Compile Include="EmployeeHrLetterAudit.cs" />
+    <Compile Include="EmployeeStatusEmploymentAudit.cs" />
+    <Compile Include="GreenslipAudit.cs" />
+    <Compile Include="GreenSlipDetailAudit.cs" />
+    <Compile Include="GreenSlipRequestAudit.cs" />
+    <Compile Include="GreenSlipRequestDetailAudit.cs" />
+    <Compile Include="HrLetterActualEndAudit.cs" />
+    <Compile Include="HrLetterHistoryMovementAudit.cs" />
+    <Compile Include="HrLetterRequestAudit.cs" />
+    <Compile Include="IbwAudit.cs" />
+    <Compile Include="IbwDetailAudit.cs" />
+    <Compile Include="LmmAttendanceAudit.cs" />
+    <Compile Include="LmmAttendanceScheduleTypeAudit.cs" />
+    <Compile Include="LmmAttendanceUpdateAudit.cs" />
+    <Compile Include="LmmAudit.cs" />
+    <Compile Include="LmmCashCountAudit.cs" />
+    <Compile Include="LmmEntryAudit.cs" />
+    <Compile Include="LoeAudit.cs" />
+    <Compile Include="LoeDetailAudit.cs" />
+    <Compile Include="LogsAudit.cs" />
+    <Compile Include="MessageAudit.cs" />
+    <Compile Include="MessengerAudit.cs" />
+    <Compile Include="MessengerDetailAudit.cs" />
+    <Compile Include="MessengerGpsAudit.cs" />
+    <Compile Include="MessengerParticipantAudit.cs" />
+    <Compile Include="MessengerStatusAudit.cs" />
+    <Compile Include="NonComplianceAudit.cs" />
+    <Compile Include="NonComplianceTopicAudit.cs" />
+    <Compile Include="NotifyLmmForTransferedSalesEmployeeAudit.cs" />
+    <Compile Include="NovExplanationAudit.cs" />
+    <Compile Include="OdsCompanyAudit.cs" />
+    <Compile Include="OperationReportAudit.cs" />
+    <Compile Include="ProductAudit.cs" />
+    <Compile Include="ProductAvailAudit.cs" />
+    <Compile Include="ProductGroupAudit.cs" />
+    <Compile Include="ProductSerialAudit.cs" />
+    <Compile Include="ProductTypeAudit.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PurposeAudit.cs" />
+    <Compile Include="ReasonAudit.cs" />
+    <Compile Include="RepairDetailAudit.cs" />
+    <Compile Include="RepairImageAudit.cs" />
+    <Compile Include="RequestForIssuanceAudit.cs" />
+    <Compile Include="RequestForIssuanceDetailAudit.cs" />
+    <Compile Include="RequestForScheduleChangeAudit.cs" />
+    <Compile Include="RequestMessageAudit.cs" />
+    <Compile Include="RequestRepairAudit.cs" />
+    <Compile Include="RequestTopicAudit.cs" />
+    <Compile Include="RfscAudit.cs" />
+    <Compile Include="RfscMessageAudit.cs" />
+    <Compile Include="RovingAgentDeviceProfileAudit.cs" />
+    <Compile Include="RovingAgentLoginAudit.cs" />
+    <Compile Include="RovingCheckListAudit.cs" />
+    <Compile Include="RovingCheckListViolationAudit.cs" />
+    <Compile Include="RovingCheckListViolationDetailAudit.cs" />
+    <Compile Include="RovingCheckListViolationPersonnelAudit.cs" />
+    <Compile Include="RovingPlanAudit.cs" />
+    <Compile Include="RovingPlanOicAudit.cs" />
+    <Compile Include="RovingPlanScheduledActualAudit.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistAudit.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistImageAudit.cs" />
+    <Compile Include="RovingPlanScheduledActualChecklistLSVAudit.cs" />
+    <Compile Include="RovingPlanScheduledAudit.cs" />
+    <Compile Include="RovingScheduleAudit.cs" />
+    <Compile Include="RovingTasksAudit.cs" />
+    <Compile Include="SalesScheduleAudit.cs" />
+    <Compile Include="SalesSchedulingColorPlannedAudit.cs" />
+    <Compile Include="SalesSchedulingConcernAudit.cs" />
+    <Compile Include="SalesSchedulingConfirmationAudit.cs" />
+    <Compile Include="SalesSchedulingCutoffAudit.cs" />
+    <Compile Include="SalesSchedulingReasonCodeAudit.cs" />
+    <Compile Include="SalesSchedulingUpdatesAudit.cs" />
+    <Compile Include="ShiftAudit.cs" />
+    <Compile Include="TraineeAttendanceAudit.cs" />
+    <Compile Include="TraineeAudit.cs" />
+    <Compile Include="TrainingAttendance2Audit.cs" />
+    <Compile Include="TrainingAttendanceAudit.cs" />
+    <Compile Include="TrainingAttendanceDetailsAudit.cs" />
+    <Compile Include="TrainingAttendanceStatusAudit.cs" />
+    <Compile Include="TypeOfLetterAudit.cs" />
+    <Compile Include="TypeOfReconcilingFormAudit.cs" />
+    <Compile Include="TypeOfViolationAudit.cs" />
+    <Compile Include="UrgentScheduleChangeAudit.cs" />
+    <Compile Include="UrgentScheduleChangeBranchAudit.cs" />
+    <Compile Include="UrgentScheduleChangeMessageAudit.cs" />
+    <Compile Include="UserAudit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Qtc.Branch.BusinessEntities\Qtc.Branch.BusinessEntities.csproj">
+      <Project>{8f2961bd-dd9a-46de-b79d-3d620db0e6f0}</Project>
+      <Name>Qtc.Branch.BusinessEntities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

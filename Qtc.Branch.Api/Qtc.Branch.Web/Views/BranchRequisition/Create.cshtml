@@ -1,0 +1,244 @@
+﻿@model Qtc.Branch.BusinessEntities.BranchRequisition
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Create</h2>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <!-- DataTales Example -->
+        <div class="col-xl-9 col-lg-7">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Branch Ending Inventory</h6>
+                    <input type="hidden" id="BranchIdValue" value="@ViewBag.BranchId">
+                    <div class="dropdown no-arrow">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Dropdown Header:</div>
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="tableSales" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Avail Qty</th>
+                                </tr>
+                            </thead>
+                            <tfoot>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Avail Quantity</th>
+                                </tr>
+                            </tfoot>
+                            <tbody>
+                                @foreach (var item in Model.mBranchRequisitionDetail)
+                                {
+                                    <tr>
+                                        <td class="mName">
+                                            <span>@Html.DisplayFor(modelItem => item.mName)</span>
+                                            <input type="hidden" value="@item.mName" style="display:none" id="mName" />
+                                            <input type="hidden" value="@item.mId" style="display:none" id="mId" />
+                                            <input type="hidden" value="@item.mProductId" style="display:none" id="mProductId" />
+                                            <input type="hidden" value="@item.mRemarks" style="display:none" id="mRemarks" />
+                                            <input type="hidden" value="@item.mDatestamp" style="display:none" id="mDatestamp" />
+                                            <input type="hidden" value="@item.mDisable" style="display:none" id="mDisable" />
+                                        </td>
+                                        <td class="mQuantity">
+                                            <input id="mAvailQuantityTextBox" type="text" placeholder="Qty" class="form-control" value="@item.mAvailQty" />
+                                            <input type="hidden" value="@item.mAvailQty" id="mAvailQuantityValue" />
+                                        </td>
+
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-7">
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Inventory Summary</h6>
+                    <div class="dropdown no-arrow">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Dropdown Header:</div>
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Branch Name</div>
+                            <span>@Html.DisplayFor(model => model.mBranchName)</span>
+                            <input type="hidden" id="BranchName" name="BranchName" value="@Model.mBranchName">
+                            <input type="hidden" id="Id" name="Id" value="@Model.mId">
+                            <input type="hidden" id="BranchId" name="BranchId" value="@Model.mBranchId">
+                            @*@Html.EditorFor(model => model.mBranchName, new { htmlAttributes = new { @class = "form-control" } })*@
+                            </br>
+                            </br>
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Sales Date</div>
+                            <span>@Html.DisplayFor(model => model.mSalesDate)</span>
+                            @*@Html.EditorFor(model => model.mSalesDate, new { htmlAttributes = new { @class = "form-control" } })*@
+                            </br>
+                            </br>
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Code</div>
+                            <span>@Html.DisplayFor(model => model.mCode)</span>
+                            @*@Html.EditorFor(model => model.mSalesDate, new { htmlAttributes = new { @class = "form-control" } })*@
+                            </br>
+                            </br>
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Employee</div>
+                            <span>@Html.DisplayFor(model => model.mEmployeeName)</span>
+                            </br>
+                            </br>
+                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Remarks</div>
+                            @Html.EditorFor(model => model.mEmployeeRemarks, new { htmlAttributes = new { @class = "form-control" } })
+
+                            <input type="hidden" id="TotalAmountValue" name="TotalAmountValue" value="0">
+                            </br>
+                            <input id="btnSave" type="button" value="Save" class="btn btn-success btn-block btn-lg" />
+                            <input id="btnLogout" type="button" value="Logout" class="btn btn-secondary btn-block btn-lg" />
+                            @*<a href="#" id="btnSave" class="btn btn-success btn-block btn-lg"><i class="fas fa-save fa-fw"></i> Save </a>*@
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    <script >
+
+        $("body").on("click", "#tableSales #mAvailQuantityTextBox", function () {
+
+            //alert("Clicked!!!");
+
+        });
+
+          $("body").on("click", "#btnLogout", function () {
+            //alert("Clicked!!!" + '@Model.mId');
+
+            if (confirm("Do you want to logout")) {
+                location.href = "@Url.Action("Index", "Login")"
+
+            }
+            //alert("X" + total_amount);
+
+        });
+
+
+
+        $("body").on("click", "#btnSave", function () {
+            //alert("Clicked!!!" + '@Model.mId');
+
+            if (confirm("Do you want to Update Store Ending Inventory?")) {
+                SaveInventory();
+
+            }
+            //alert("X" + total_amount);
+
+        });
+
+        function SaveInventory() {
+            var branchRequisition = {};
+            loadBranchRequisitionFromControl(branchRequisition);
+
+        }
+
+        function loadBranchRequisitionFromControl(branchRequisition) {
+
+            branchRequisition.mId = '@Model.mId';
+            branchRequisition.mSalesDate = '@Model.mSalesDate';
+            branchRequisition.mBranchId = '@Model.mBranchId';
+            branchRequisition.mLmmId = '@Model.mLmmId';
+            branchRequisition.mEmployeeId = '@Model.mEmployeeId';
+            branchRequisition.mDateCreated = '@Model.mDateCreated';
+            branchRequisition.mDateUpdated = '@Model.mDateUpdated';
+            branchRequisition.mLmmRemarks = '@Model.mLmmRemarks';
+            branchRequisition.mEmployeeRemarks = '@Model.mEmployeeRemarks';
+            branchRequisition.mDatestamp = '@Model.mDatestamp';
+            branchRequisition.mUserId = '@Model.mUserId';
+            branchRequisition.mCode = '@Model.mCode';
+            branchRequisition.mDisable = '@Model.mDisable';
+
+
+            var rows = [];
+            $('#tableSales tbody tr').each(function () {
+                var branchRequisitionDetails = {};
+
+                branchRequisitionDetails.mId = $(this).find('#mId').val();
+                branchRequisitionDetails.mBranchRequisitionId = 0;
+                branchRequisitionDetails.mProductId = $(this).find('#mProductId').val();
+                branchRequisitionDetails.mAvailQty = $(this).find('#mAvailQuantityTextBox').val();
+                branchRequisitionDetails.mUserId = $(this).find('#mUserId').val();
+                branchRequisitionDetails.mRemarks = "";
+                branchRequisitionDetails.mName = "";
+                branchRequisitionDetails.mDatestamp = $(this).find('#mDatestamp').val();
+                branchRequisitionDetails.mDisable = $(this).find('#mDisable').val();
+                rows.push(branchRequisitionDetails);
+
+            });
+
+            branchRequisition.mBranchRequisitionDetail = rows;
+
+            // saves branch requisition
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("Create")",
+                data: {
+                    branchRequisition: branchRequisition
+                },
+                contentType: 'application/x-www-form-urlencoded; charset=utf-8',
+                dataType: "json",
+                beforeSend: function () { // Before we send the request
+                    $('#staticBackdrop').modal('show');
+                },
+                success: function (r) {
+                    if (r.success) {
+                        alert("Thank you for updating the store ending inventory. You will be redirected to login page.")
+                        //alert(r.responseText);
+                        location.href = "@Url.Action("Index", "Login")" //redirect to index page
+                    } else {
+                        alert(r.responseText);
+                    }
+                },
+                complete: function () { // Set our complete callback
+                    $('#staticBackdrop').modal('hide');
+                },
+                error: function (r) {
+                    alert("error please contact administrator!!!"); responseText
+                }
+            });
+        }
+    </script>
+
